@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message OperationResult {
+  bool success = 1;
+  string message = 2;
+}

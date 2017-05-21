@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "OperationResult.proto";
+import "User.proto";
+
+message AddUserResponse {
+  OperationResult result = 1;
+  User user = 2;
+}
