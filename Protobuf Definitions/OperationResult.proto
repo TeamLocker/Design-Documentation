@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option java_package = "me.camerongray.teamlocker.client.protobufs";
+
 message OperationResult {
   bool success = 1;
   string message = 2;

@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option java_package = "me.camerongray.teamlocker.client.protobufs";
+
 message User {
   int32 id = 1;
   string username = 2;
