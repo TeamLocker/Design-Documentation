@@ -24,7 +24,7 @@
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="106.908203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="164.107421875" x="2.0" y="30.701171875">id
 username
 full_name
-auth_hash
+auth_key_hash
 encrypted_private_key
 encrypted_private_key_nonce
 public_key<y:LabelModel>
