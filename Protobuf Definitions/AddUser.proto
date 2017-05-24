@@ -2,8 +2,12 @@ syntax = "proto3";
 
 option java_package = "me.camerongray.teamlocker.client.protobufs";
 
-import "OperationResult.proto";
-import "User.proto";
+import "MessageComponents.proto";
+import "Objects.proto";
+
+message AddUserRequest {
+  User user = 1;
+}
 
 message AddUserResponse {
   OperationResult result = 1;

@@ -9,5 +9,8 @@ message User {
   string auth_key = 4;
   bytes encrypted_private_key = 5;
   bytes encrypted_private_key_nonce = 6;
-  bytes public_key = 7;
+  int32 encrypted_private_key_ops_limit = 7;
+  int64 encrypted_private_key_mem_limit = 8;
+  bytes public_key = 9;
+  bytes salt = 10;
 }
