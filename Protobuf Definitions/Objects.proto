@@ -13,4 +13,5 @@ message User {
   int64 encrypted_private_key_mem_limit = 8;
   bytes public_key = 9;
   bytes salt = 10;
+  bool is_admin = 11;
 }
