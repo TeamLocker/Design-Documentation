@@ -17,18 +17,15 @@
     <node id="n0">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="189.0" width="244.0" x="67.0" y="190.0"/>
+          <y:Geometry height="153.0" width="244.0" x="67.0" y="199.60000000000002"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="36.42578125" x="103.787109375" y="4.0">users</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="157.65625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="239.904296875" x="2.0" y="29.96875">id:int
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="177.90625" x="2.0" y="29.96875">id:int
 username:str
 full_name:str
 auth_key_hash:str
 encrypted_private_key:bytes
-encrypted_private_key_nonce:bytes
-encrypted_private_key_ops_limit:int
-encrypted_private_key_mem_limit:long
 public_key:bytes
 salt:bytes
 is_admin:boolean<y:LabelModel>
@@ -169,7 +166,7 @@ manage:boolean<y:LabelModel>
     <edge id="e3" source="n4" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="10.018750000000004" sy="24.61403508771929" tx="-0.5674418604651157" ty="88.66011235955054">
+          <y:Path sx="10.018750000000004" sy="24.61403508771929" tx="-0.5674418604651157" ty="71.77247191011229">
             <y:Point x="188.43255813953488" y="415.1140350877193"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>

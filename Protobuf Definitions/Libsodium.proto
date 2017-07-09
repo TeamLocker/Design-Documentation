@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "me.camerongray.teamlocker.client.protobufs";
+
+message LibsodiumItem {
+  bytes data = 1;
+  bytes nonce = 2;
+  int64 ops_limit = 3;
+  int64 mem_limit = 4;
+}

@@ -6,7 +6,7 @@ message User {
   int32 id = 1;
   string username = 2;
   string full_name = 3;
-  string auth_key = 4;
+  bytes auth_key = 4;
   bytes encrypted_private_key = 5;
   bytes encrypted_private_key_nonce = 6;
   int32 encrypted_private_key_ops_limit = 7;
