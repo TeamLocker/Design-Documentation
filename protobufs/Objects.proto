@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "me.camerongray.teamlocker.client.protobufs";
+
+message User {
+  int32 id = 1;
+  string username = 2;
+  string full_name = 3;
+  bytes auth_key_hash = 4;
+  bytes encrypted_private_key = 5;
+  bytes public_key = 6;
+  bytes kdf_salt = 7;
+  bool is_admin = 8;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "me.camerongray.teamlocker.client.protobufs";
+
+import "protobufs/MessageComponents.proto";
+import "protobufs/Objects.proto";
+
+message GetUserResponse {
+  OperationResult result = 1;
+  User user = 2;
+}
