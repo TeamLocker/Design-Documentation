@@ -17,15 +17,15 @@
     <node id="n0">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="153.0" width="244.0" x="67.0" y="199.60000000000002"/>
+          <y:Geometry height="153.0" width="287.99305555555554" x="-65.6076388888889" y="199.60000000000002"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="36.42578125" x="103.787109375" y="4.0">users</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="177.90625" x="2.0" y="29.96875">id:int
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="36.42578125" x="125.78363715277777" y="4.0">users</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="279.876953125" x="2.0" y="29.96875">id:int
 username:str
 full_name:str
 auth_key_hash:str
-encrypted_private_key:bytes
+encrypted_private_key:bytes (LibsodiumItem)
 public_key:bytes
 salt:bytes
 is_admin:boolean<y:LabelModel>
@@ -86,16 +86,16 @@ folder_id:int<y:LabelModel>
     <node id="n3">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="128.0" width="168.0" x="380.75" y="85.0"/>
+          <y:Geometry height="128.0" width="278.6111111111111" x="325.44444444444446" y="85.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="151.779296875" x="8.1103515625" y="4.0">encrypted_account_data</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="166.205078125" x="2.0" y="29.96875">id:int
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="151.779296875" x="63.41590711805554" y="4.0">encrypted_account_data</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="268.17578125" x="2.0" y="29.96875">id:int
 account_id:int
 user_id:int
 permissions_id:int
-encrypted_metadata:bytes
-encrypted_password:bytes<y:LabelModel>
+encrypted_metadata:bytes (LibsodiumItem)
+encrypted_password:bytes (LibsodiumItem)<y:LabelModel>
               <y:ErdAttributesNodeLabelModel/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -166,8 +166,8 @@ manage:boolean<y:LabelModel>
     <edge id="e3" source="n4" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="10.018750000000004" sy="24.61403508771929" tx="-0.5674418604651157" ty="71.77247191011229">
-            <y:Point x="188.43255813953488" y="415.1140350877193"/>
+          <y:Path sx="10.018750000000004" sy="24.61403508771929" tx="-0.669751291989663" ty="71.77247191011229">
+            <y:Point x="77.7191375968992" y="415.1140350877193"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="crows_foot_many" target="crows_foot_one"/>
@@ -179,7 +179,7 @@ manage:boolean<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="189.0" y="149.0"/>
+            <y:Point x="78.38888888888887" y="149.0"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="crows_foot_many" target="crows_foot_one"/>
