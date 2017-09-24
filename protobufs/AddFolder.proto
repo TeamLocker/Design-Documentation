@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "me.camerongray.teamlocker.client.protobufs";
+
+import "protobufs/MessageComponents.proto";
+import "protobufs/Objects.proto";
+
+message AddFolderRequest {
+  Folder folder = 1;
+}
+
+message AddFolderResponse {
+  OperationResult result = 1;
+  Folder folder = 2;
+}
