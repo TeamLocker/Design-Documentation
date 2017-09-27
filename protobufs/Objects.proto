@@ -20,3 +20,15 @@ message Folder {
   int32 id = 1;
   string name = 2;
 }
+
+message AccountMetadata {
+  string name = 1;
+  string username = 2;
+  string comments = 3;
+}
+
+message Account {
+  int32 id = 1;
+  AccountMetadata metadata = 2;
+  string password = 3;
+}
